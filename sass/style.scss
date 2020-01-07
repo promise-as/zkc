@@ -1522,6 +1522,28 @@ p.noresult {
     }
   }
 }
+// 悬浮底部
+.suspend-site{
+  width: 100%;
+  height: 90px;
+}
+.px-suspend {
+  width: 100%;
+  height: 90px;
+  padding: 17px 0 12px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  .wrap{
+    padding-left: 591px;
+    box-sizing: border-box;
+  }
+  .suspend-btn {
+    display: block;
+    width: 443px;
+    height: 61px;
+  }
+}
 // 弹窗
 .px-popup {
   position: fixed;
@@ -1580,8 +1602,7 @@ p.noresult {
       }
       select {
         width: 135px;
-
-        background: url(../images/sel.png) no-repeat 84%;
+        background: url(https://img.thea.cn/public/platform/thea/202001/hbj/ksw/images/sel.png) no-repeat 84%;
       }
       .row-key {
         &:nth-of-type(2) {
@@ -1611,19 +1632,4 @@ p.noresult {
     }
   }
 }
-// 悬浮底部
-.px-suspend {
-  width: 100%;
-  height: 90px;
-  padding: 17px 0 12px;
-  box-sizing: border-box;
-  .wrap{
-    padding-left: 591px;
-    box-sizing: border-box;
-  }
-  .suspend-btn {
-    display: block;
-    width: 443px;
-    height: 61px;
-  }
-}
+

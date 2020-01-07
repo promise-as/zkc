@@ -93,7 +93,7 @@ $(function(){
 
 $(".t img").attr("src","https://img.thea.cn/public/platform/thea/201809/qlp/zkc/images/tip.jpg?1")
 
-// author: HongBaojin
+// author: HongBaojin 2010-01-07
 $(function(){
     $('.px-btn').click(function(){
         $('#popup').show();
